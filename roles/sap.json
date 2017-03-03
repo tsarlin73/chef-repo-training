@@ -1,1 +1,1 @@
-{"name":"sap","description":"","json_class":"Chef::Role","default_attributes":{},"override_attributes":{},"chef_type":"role","run_list":[],"env_run_lists":{}}
+{"name":"sap","description":"","json_class":"Chef::Role","default_attributes":{},"override_attributes":{},"chef_type":"role","run_list":[],"env_run_lists":{"development":["recipe[mysecond_cookbook_08]","recipe[mysecond_cookbook08::display_chef_environment]"]}}
