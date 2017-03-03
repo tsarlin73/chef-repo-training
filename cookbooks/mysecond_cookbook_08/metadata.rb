@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures mysecond_cookbook_08'
 long_description 'Installs/Configures mysecond_cookbook_08'
-version '0.4.0'
+version '0.4.2'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
@@ -19,3 +19,5 @@ version '0.4.0'
 # source_url 'https://github.com/<insert_org_here>/mysecond_cookbook_08' if respond_to?(:source_url)
 issues_url 'https://github.com/oswaldderiemaecker/chef-repo-training/mysecond_cookbook_08/issues' if respond_to?(:issues_url)
 source_url 'https://github.com/oswaldderiemaecker/chef-repo-training/mysecond_cookbook_08' if respond_to?(:source_url)
+
+depends 'lvm'
