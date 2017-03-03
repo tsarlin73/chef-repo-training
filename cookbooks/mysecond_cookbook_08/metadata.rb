@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures mysecond_cookbook_08'
 long_description 'Installs/Configures mysecond_cookbook_08'
-version '0.4.2'
+version '0.4.3'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
